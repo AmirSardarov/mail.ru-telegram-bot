@@ -13,5 +13,5 @@
 1. Склонируйте репозиторий и перейдите в его директорию:
 
    ```bash
-   git clone https://github.com/ваш_пользователь/имя_репозитория.git
-   cd имя_репозитория
+   git clone https://github.com/AmirSardarov/mail.ru-telegram-bot.git
+   cd mail.ru-telegram-bot/mail-watcher/config
