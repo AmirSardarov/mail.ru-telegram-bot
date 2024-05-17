@@ -30,3 +30,11 @@ https://help.mail.ru/mail/security/protection/external/#create
 4. В Терминале введите команды:
 npm install и далее node index.js
 
+PS ЧТОБЫ ДОБАВИТЬ БОЛЬШЕ ЮЗЕРОВ БОЛЕЕ ДВУХ:
+ В файле index.js добавляет нового пользователя в массив mailAccounts:
+Ищите строки и по аналогии добавляем 3го юзера.
+const mailAccounts = [
+    { user: process.env.MAIL_USER1, password: process.env.MAIL_PASS1 },
+    { user: process.env.MAIL_USER2, password: process.env.MAIL_PASS2 },
+    { user: process.env.MAIL_USER3, password: process.env.MAIL_PASS3 }  // Новый пользователь
+];
