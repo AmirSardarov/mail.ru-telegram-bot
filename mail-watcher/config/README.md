@@ -15,3 +15,13 @@
    ```bash
    git clone https://github.com/AmirSardarov/mail.ru-telegram-bot.git
    cd mail.ru-telegram-bot/mail-watcher/config
+
+2. Создайте в корне проекта файл .env
+
+3. Скопируйте и вставьте в него:
+TELEGRAM_BOT_TOKEN=ваш_токен_бота
+TELEGRAM_CHAT_ID=ваш_chat_id
+MAIL_USER1=ваш_email_1
+MAIL_PASS1=ваш_пароль_1
+MAIL_USER2=ваш_email_2
+MAIL_PASS2=ваш_пароль_2
