@@ -12,7 +12,7 @@
       "mailparser": "^3.4.1",
       "node-telegram-bot-api": "^0.56.0"
     },
-    "author": "Your Name",
+    "author": "AS",
     "license": "ISC"
   }
   
