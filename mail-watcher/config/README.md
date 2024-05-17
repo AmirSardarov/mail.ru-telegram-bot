@@ -25,7 +25,8 @@ MAIL_USER1=ваш_email_1
 MAIL_PASS1=ваш_пароль_1
 MAIL_USER2=ваш_email_2
 MAIL_PASS2=ваш_пароль_2
-
+тут пароли создавайте для аккаунтов
+https://help.mail.ru/mail/security/protection/external/#create
 4. В Терминале введите команды:
 npm install и далее node index.js
 
