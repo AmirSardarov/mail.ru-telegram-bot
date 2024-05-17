@@ -1,0 +1,18 @@
+{
+    "name": "mail-watcher",
+    "version": "1.0.0",
+    "description": "A Node.js project to watch multiple mail accounts and send notifications to Telegram.",
+    "main": "index.js",
+    "scripts": {
+      "start": "node index.js"
+    },
+    "dependencies": {
+      "dotenv": "^16.0.0",
+      "imap": "^0.8.19",
+      "mailparser": "^3.4.1",
+      "node-telegram-bot-api": "^0.56.0"
+    },
+    "author": "Your Name",
+    "license": "ISC"
+  }
+  
