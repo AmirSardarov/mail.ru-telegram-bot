@@ -11,8 +11,7 @@ const chatId = process.env.TELEGRAM_CHAT_ID;
 const imapConfig = {
     host: 'imap.mail.ru',
     port: 993,
-    tls: true,
-    tlsOptions: { rejectUnauthorized: false }
+    tls: true
 };
 
 const mailAccounts = [
@@ -22,7 +21,6 @@ const mailAccounts = [
 
 // Array to keep track of sent message IDs
 let sentMessageIds = [];
-
 // Time when the script started
 const scriptStartTime = new Date();
 
@@ -94,12 +92,6 @@ function connectAccount(account) {
     });
 
     imap.connect();
-
-    // Set interval for periodic mail check
-    setInterval(() => {
-        console.log(`Checking mail for ${account.user}...`);
-        imap.connect();
-    }, 60000); // 60 seconds interval
 }
 
 mailAccounts.forEach(connectAccount);
