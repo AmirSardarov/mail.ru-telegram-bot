@@ -96,5 +96,3 @@ function connectAccount(account) {
 
 mailAccounts.forEach(connectAccount);
 
-console.log('Telegram Bot Token:', process.env.TELEGRAM_BOT_TOKEN);
-console.log('Telegram Chat ID:', process.env.TELEGRAM_CHAT_ID);
